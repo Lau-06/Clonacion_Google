@@ -1,0 +1,194 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+}
+
+  body {
+    box-sizing: content-box;
+  }
+  
+  header {
+    height: 67px;
+  }
+  
+  nav {
+    height: 47px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 8px;
+  }
+ 
+.container-hiper a{
+    text-decoration: none;
+    margin: 0 5px;
+    color: #202124;
+}
+.container-hiper > a:hover{
+    text-decoration: underline;
+}
+
+.container-image{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80px;
+}
+
+  .container-image img{
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+a > img:hover{
+    box-shadow: 0 1px 10px #20212447;
+  }
+  .avatar, .menu {
+    border-radius: 50%;
+  }
+
+  /*Estilos main*/
+  main{
+    text-align: center;
+  }
+
+.logo_Google{
+    width: 530px;
+    margin: 0 auto;
+  }
+.logo_Google img{
+    width: 272px;
+    height: 92px;
+  }
+
+  .buscador{
+    width: 782px;
+    height: 120px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+.container-input{
+  width: 582px;
+  border-radius: 100px;
+  border: 1px solid #e1e2e6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  }
+
+.container-input input{
+  width: 450px;
+  height: 46px;
+  border:  none;
+  outline: none;
+}
+
+.container-input:hover{
+  box-shadow: 0 1px 10px #20212447;
+}
+
+.container-input .iconos{
+  background-image: url(../Google/IMAGENES/search_icon.png) ;
+  margin-top: 3px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+.microfono{
+  background-image: url(../Google/IMAGENES/mic_logo.png);
+  margin-top: 3px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+.camara{
+  background-image: url(../Google/IMAGENES/camara_icono.png);
+  margin-top: 3px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.botones{
+  padding-top: 18px;
+}
+.botones button{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  color: #3c4043;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+button:hover{
+  border: 1px solid #dadce0;
+  box-shadow: 1px #dadce0;
+}
+
+.texto > p{
+    line-height: 28px;
+}
+/*Pie de pagina*/
+footer{
+  background: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.pais{
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  color: #70757a;
+  display: flex;
+  justify-content: space-between;
+}
+.container-p{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 1309px;
+  height: 46px;
+}
+.container-p .s_google > a{
+  text-decoration: none;
+  color: #70757a;
+  display: inline-block;
+  padding: 15px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.container-p .p_privacidad> a{
+  text-decoration: none;
+  color: #70757a;
+  display: inline-block;
+  padding: 15px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.container-p .s_google > a:hover{
+  text-decoration: underline;
+}
+
+.container-p .p_privacidad > a:hover{
+  text-decoration: underline;
+}
